@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title> Movie Searcher by JellyBean </title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+</head>
+ <body id = 'background'>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#"><img id = 'rottenbananas'src="rottenbananas.png"  width="170" height="100"></a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" id="navigation-bar">
+            <li><input type="text" placeholder="Search movies here"  id="txtbox"></li>
+
+            <li id="intheaters-btn"><button type="button" class="btn btn-default">In Theaters</button><a href="#"></a></li>
+        		<li id="boxoffice-btn"><button type="button" class="btn btn-default">Box Office</button><a href="#"></a></li>    
+            <li id="opening-btn"><button type="button" class="btn btn-default">Opening</button><a href="#"></a></li>
+            <li id="upcoming-btn"><button type="button" class="btn btn-default">Coming Soon</button><a href="#"></a></li>
+            <li id="aboutus-btn"><button type="button" class="btn btn-default"><a href="http://myrish.github.io/AdvancedWebComputing/Module_1/JellyBean.html"; target = "_blank";>About Us</a></button></li>
+
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+   
+    <center><div id="titlehead"></div></center>
+
+    <div class='col-md-7 movie-detail'>
+
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <script id="tpl-movie-item" type="text/x-handlebars-template">
+              <div class = "col-md-4" id="movie-item">
+                <div class='col-md-5'>
+                  <img id = "posters" src="{{posters.profile}}" class = "img-polaroid" alt="" height="150px" width="130px;">
+                </div>
+                <div class = "col-md-7">
+                    <span id = "movietitle">{{title}}</span> ({{year}})
+
+
+                </div>
+              </div> 
+        </script>
+      </div>
+    <div>
+
+
+    <script id="tpl-movie-detail" type="text/x-handlebars-template">
+           
+           <div class="col-md-6 col-md-offset-3">
+           <h3>Synopsis</h3>
+           <blockquote>{{synopsis}}</blockquote>
+           </div>
+    </script>
+
+    <ul id = "list">
+    </ul>
+
+    <div class="navbar navbar-fixed-bottom" id="footer">
+      <center><p>JellyBean. All rights reserved, 2013.</p></center>
+    </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/handlebars.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+        <script type="text/javascript" src="leanModal.v1.1/jquery.leanModal.min.js"></script>
+  
+
+</body>
+</html>

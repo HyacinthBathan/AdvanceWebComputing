@@ -1,0 +1,125 @@
+#background{
+	background:-webkit-gradient(linear, 0% 100%, 0% 0%, from(#ffffff), to(#101010));
+}
+
+.container
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	opacity: 80px;
+}
+.navbar-header{
+	max-height: 50px;
+}
+
+#txtbox
+{
+	width: 250px;
+	height: 35px;
+	margin-top: 20px;
+	margin-left: 12px;
+	border: solid 2px black;
+	border-radius: 15px;
+	padding-left: 12px;
+
+    font: 15px century gothic;
+    font-style: normal;
+    font-weight: 0px;
+}
+
+#intheaters-btn{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 7px;
+	font-family: century gothic;
+}
+
+#boxoffice-btn{
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 7px;
+	font-family: century gothic;
+}
+
+#opening-btn{
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 7px;
+	font-family: century gothic;
+}
+
+#upcoming-btn{
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 7px;
+	font-family: century gothic;
+}
+
+#aboutus-btn{
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 7px;	
+	font-family: century gothic;
+	text-decoration: none;
+}
+
+#footer
+{
+	background-color: #f1f1f1;
+	padding-top: 15px;
+	font-size: 11px;
+	font-family: century gothic;
+	font-weight: bolder;
+	letter-spacing: 2px;
+}
+#list
+{
+	padding-top: 5px;
+}
+#movietitle
+{
+	font-size: 16px;
+	font-weight: bolder; ]
+	font-family: century gothic;
+	color: black;
+}
+#movie-item
+{
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+#titlehead
+{
+	margin-top: 100px;
+	padding-bottom: 50px;
+	font-family: century gothic;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+#seefulldetail-btn
+{
+	margin-top: 25px;
+	color: 
+}
+#result-container
+{
+	text-align: right;
+	color: white;
+}
+.popover.popover-example 
+{
+    display: block;
+    margin-left: 250px;
+    margin-top: 300px;
+}
+#posters
+{
+	border: solid 3px black;
+}
+#rottenbananas{
+	margin-top: -23px;
+	margin-left: 45px;
+}
+
+
